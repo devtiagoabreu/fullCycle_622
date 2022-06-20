@@ -1,0 +1,12 @@
+#001-Windows e WSL_ Como criar o ambiente dos sonhos para programar
+#backup do meu wsl
+wsl --export "Ubuntu" X:\bkps\wsls\wslTiago.tar
+#restaurar backup
+wsl --import "Ubuntu" X:\bkps\wsls\wslTiago.tar
+#acessar pasta de dentro do wsl
+cd /mnt/c
+#instalar extensão no vscode
+remote development
+#instalar o ohmyzsh
+
+
